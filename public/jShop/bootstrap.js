@@ -5,7 +5,8 @@ define([
     'angularAMD',
 
     'common/config',
-    'guitars/config'
+    'guitars/config',
+    'matrix/config'
 
 
 ], function(jShop, angularAMD) {
