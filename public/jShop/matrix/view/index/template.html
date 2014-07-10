@@ -1,0 +1,18 @@
+<div class="matrix container">
+
+    <div class="form-group">
+        <input class="form-control matrix-count" type="number" max="5" min="2" ng-model="N"/>
+    </div>
+
+    <table class="matrix-table">
+        <tr ng-repeat="str in matrix">
+            <td ng-repeat="coll in str">
+                <input class="form-control" type="number" ng-model="coll.n"/>
+            </td>
+        </tr>
+    </table>
+
+    <div class="form-group"><button class="btn btn-default" ng-click="calculate()">Calculate</button></div>
+    <div>{{result}}</div>
+
+</div>
